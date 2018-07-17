@@ -1,0 +1,14 @@
+@import "normalize";
+@import "transition";
+@import "utils";
+html {
+  color: $light;
+  background-color: adjust-color($color: $dark, $lightness: 10%);
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Microsoft JhengHei",
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1 {
+  background-color: aquamarine;
+}
